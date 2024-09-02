@@ -16,4 +16,4 @@ jobs:
         with:
           REMOTE: "https://codeberg.org/ethical_haquer/mirror-test.git"
           GIT_USERNAME: ethical_haquer-test-bot
-          GIT_PASSWORD: ${{ secrets.SYNC_TEST_1 }}
+          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
