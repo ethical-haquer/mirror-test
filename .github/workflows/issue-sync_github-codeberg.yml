@@ -12,7 +12,7 @@ jobs:
       - name: GitHub -> Codeberg Issue sync
         run: |
           URL="https://codeberg.org/"
-          REPO="tuxilio/sync-test"
+          REPO="ethical_haquer/sync-test"
           TOKEN=${{ secrets.GIT_TOKEN }}
 
           sync=0
